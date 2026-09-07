@@ -35,7 +35,7 @@ st.write(
 # -----------------------------------------------------
 st.sidebar.header("⚙️ เลือกโมเดล")
 
-MODEL_DIR = "models"  # โฟลเดอร์เก็บไฟล์โมเดลที่ดาวน์โหลดมาจาก Google Drive
+MODEL_DIR = "ModelW10"  # โฟลเดอร์เก็บไฟล์โมเดลที่ดาวน์โหลดมาจาก Google Drive
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # ค้นหาไฟล์นามสกุล .pkcls ทั้งหมดในโฟลเดอร์ models
